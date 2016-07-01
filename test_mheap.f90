@@ -1,3 +1,6 @@
+! 2014, Daniel Pena
+! Simplified BSD License 
+
 PROGRAM TEST_MHEAP
 
    USE MHEAP
