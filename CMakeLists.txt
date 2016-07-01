@@ -6,10 +6,10 @@ SET(VERSION 1.0.0)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8.5)
 
 # set default installation to ./install
-set( CMAKE_INSTALL_PREFIX "${CMAKE_SOURCE_DIR}/install/" CACHE STRING "Choose the installation directory; by default it installs in the ./install directory." FORCE )
+#set( CMAKE_INSTALL_PREFIX "${CMAKE_SOURCE_DIR}/install/" CACHE STRING "Choose the installation directory; by default it installs in the ./install directory." FORCE )
 
 # Unique directory for Fortran compiled .mod files -> modules folder
-SET(CMAKE_Fortran_MODULE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/modules)
+SET(CMAKE_Fortran_MODULE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/include)
 
 # set default build to RELEASE
 if( NOT CMAKE_BUILD_TYPE )
